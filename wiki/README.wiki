@@ -42,11 +42,11 @@ There are a variety of things you need to configure in order to integrate this a
 
 *Images*
     * icon.png - replace with an iPhone app icon (57x57 pixels)
-    * logo.png - replace with your logo (280x88 pixels max -- will center automatically)
+    * home-background.png - replace with your logo on a background (320x460 pixels), some of which may be covered by buttons at various points.
 
 *Plist*
     * photopicker-Info.plist
-       * replace "yourcompany" with the name of your company
+       * replace "yourappname" and "yourcompanyname" with appropriate values
        * "Bundle identifier": com.yourcompanyname.photopicker
        * "URL types": "photopicker" (you probably want to customize this -- this is the scheme that launches the app from Safari)
        * "${PRODUCT_NAME}": the name of your product or company
@@ -101,4 +101,3 @@ If you'd like to test your server without running the iPhone app, use an HTML fo
     <input type="submit" value="Send">
 </form>
 }}}
-
