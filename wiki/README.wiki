@@ -70,7 +70,7 @@ Add the following Javascript section to your web application, replacing the URLs
            window.location = 'http://www.yourcompanyname.com/instruction-to-install-app.html'
        }, 500);
 
-       window.location = 'yourcompany://photopicker?source=camera&context=yourdatahere';
+       window.location = 'photopicker://?source=camera&context=yourdatahere';
    };
 </script>
 }}}
